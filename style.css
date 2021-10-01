@@ -35,8 +35,12 @@ h1 {
     text-align: center;
     letter-spacing: 3px;
     margin-top: -10vh;
-    margin-left: 10px;
-    margin-right: 10px;
+}
+
+@media (min-width: 300px) {
+    h1 {
+        font-size: 3vh;
+    }
 }
 
 @media (orientation: landscape) {
