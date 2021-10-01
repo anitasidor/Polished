@@ -37,9 +37,9 @@ h1 {
     margin-top: -10vh;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 1300px) {
     h1 {
-        font-size: 3vh;
+        font-size: 18px;
     }
 }
 
